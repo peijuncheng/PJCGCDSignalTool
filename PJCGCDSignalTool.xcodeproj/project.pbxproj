@@ -16,6 +16,9 @@
 		7544277422B0E0B3000EDFDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544277322B0E0B3000EDFDA /* main.m */; };
 		7544277E22B0E0B3000EDFDA /* PJCGCDSignalToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544277D22B0E0B3000EDFDA /* PJCGCDSignalToolTests.m */; };
 		7544278922B0E0B3000EDFDA /* PJCGCDSignalToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544278822B0E0B3000EDFDA /* PJCGCDSignalToolUITests.m */; };
+		7544279822B0E0DD000EDFDA /* PJCGCDSignalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544279622B0E0DD000EDFDA /* PJCGCDSignalTool.m */; };
+		7544279B22B0E7C7000EDFDA /* queuegroup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7544279922B0E7C7000EDFDA /* queuegroup.jpg */; };
+		7544279C22B0E7C7000EDFDA /* signaltoll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7544279A22B0E7C7000EDFDA /* signaltoll.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		7544278422B0E0B3000EDFDA /* PJCGCDSignalToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJCGCDSignalToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7544278822B0E0B3000EDFDA /* PJCGCDSignalToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJCGCDSignalToolUITests.m; sourceTree = "<group>"; };
 		7544278A22B0E0B3000EDFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7544279622B0E0DD000EDFDA /* PJCGCDSignalTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCGCDSignalTool.m; sourceTree = "<group>"; };
+		7544279722B0E0DD000EDFDA /* PJCGCDSignalTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCGCDSignalTool.h; sourceTree = "<group>"; };
+		7544279922B0E7C7000EDFDA /* queuegroup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queuegroup.jpg; sourceTree = "<group>"; };
+		7544279A22B0E7C7000EDFDA /* signaltoll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signaltoll.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,10 @@
 		7544276022B0E0B1000EDFDA /* PJCGCDSignalTool */ = {
 			isa = PBXGroup;
 			children = (
+				7544279922B0E7C7000EDFDA /* queuegroup.jpg */,
+				7544279A22B0E7C7000EDFDA /* signaltoll.jpg */,
+				7544279722B0E0DD000EDFDA /* PJCGCDSignalTool.h */,
+				7544279622B0E0DD000EDFDA /* PJCGCDSignalTool.m */,
 				7544276122B0E0B1000EDFDA /* AppDelegate.h */,
 				7544276222B0E0B1000EDFDA /* AppDelegate.m */,
 				7544276422B0E0B1000EDFDA /* ViewController.h */,
@@ -239,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7544277122B0E0B3000EDFDA /* LaunchScreen.storyboard in Resources */,
+				7544279C22B0E7C7000EDFDA /* signaltoll.jpg in Resources */,
 				7544276E22B0E0B3000EDFDA /* Assets.xcassets in Resources */,
 				7544276922B0E0B1000EDFDA /* Main.storyboard in Resources */,
+				7544279B22B0E7C7000EDFDA /* queuegroup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +280,7 @@
 			files = (
 				7544276C22B0E0B1000EDFDA /* PJCGCDSignalTool.xcdatamodeld in Sources */,
 				7544276622B0E0B1000EDFDA /* ViewController.m in Sources */,
+				7544279822B0E0DD000EDFDA /* PJCGCDSignalTool.m in Sources */,
 				7544277422B0E0B3000EDFDA /* main.m in Sources */,
 				7544276322B0E0B1000EDFDA /* AppDelegate.m in Sources */,
 			);
